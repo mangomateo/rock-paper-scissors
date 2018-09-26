@@ -84,7 +84,6 @@ img {
 
 .choice:hover {
   cursor: pointer;
-  opacity: 0.2;
 }
 
 #action-message {
@@ -94,4 +93,22 @@ img {
   font-weight: bold;
   font-size: 20px;
   margin-top: 1em;
+}
+
+.green-glow {
+  border: solid 4px #4DCC7D;
+  box-shadow: 0 0 10px #31B43A;
+  border-radius: 50%;
+}
+
+.red-glow {
+  border: solid 4px #FC121B;
+  box-shadow: 0 0 10px #D01115;
+  border-radius: 50%;
+}
+
+.gray-glow {
+  border: solid 4px #464647;
+  box-shadow: 0 0 10px #25292B;
+  border-radius: 50%;
 }
